@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Kaisei Tokumin', serif;
+    /* background: black; */
+    background-image: url("https://source.unsplash.com/user/erondu/1600x900/?nature");
+    font-size: 100%;
+}
+
+.container{
+    background: rgba(0, 0, 0, 0.274);
+    color: whitesmoke;
+    /* opacity: 0.5; */
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+    margin: 1em;
+    box-shadow:
+1px 1px #fff0f0,
+2px 2px #fff0f0,
+3px 3px #fff0f0,
+4px 4px #fff0f0,
+5px 5px #fff0f0,
+6px 6px #fff0f0;
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+transition: .5s ease;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 39px;
+    width: 40px;
+    outline: none;
+    background: rgba(105, 105, 105, 0.753);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background: rgba(66, 66, 66, 0.849); 
+}
+
+input.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.6em 1em;
+    margin: 6.6px;
+    border-radius: 20px;
+    width: calc(100% - 100px);
+    background: rgba(105, 105, 105, 0.438);
+    color: whitesmoke;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+h1.temperature{
+    margin: 0;
+}
+
+.description{
+    text-transform: capitalize;
+}
+::placeholder { 
+    color:whitesmoke;
+   }
+
+    
